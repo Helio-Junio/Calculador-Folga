@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Folga</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/favicon-designs.svg" type="image/x-icon">
+</head>
+<body>
+    <h1>Sistema de Controle de Folga</h1>
+
+    <div id = "img">
+        <img src="image/folga.png" alt="folga">
+    </div>
+
+    <div id = "folga">
+        <p>*Observação: Esse sistema ele realiza cálculos para te ajudar a ter uma previsão futura de suas folgas!</p>
+
+        <div id="linha-separadora">
+            <img src="image/linha.png" alt="linha-separadora">
+        </div>
+
+        <p>Selecione a data de servico: <input type="date" id="data"></p>
+
+        <button id="calcular" value="Calcular" onclick="calcular()">calcular</button>
+
+
+        <p>Suas folgas neste mês serão nos dias selecionados abaixo:</p>
+
+        <div id="linha-separadora">
+            <img src="image/linha.png" alt="linha-separadora">
+        </div>
+
+    </div>
+
+    <div id="resultado">
+
+    </div>
+
+    <footer> &copy; Desenvolvido por Hélio Ferreira</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
