@@ -45,7 +45,7 @@ button {
     width: 200px;
     font-family: 'Arsenal SC', sans-serif;
     font-weight: 800;
-    background-color: #ACEAC7;
+    background-color: #43ac70;
     color: aliceblue;
     border-radius: 5px;
     cursor: pointer;
@@ -55,7 +55,7 @@ button {
 
 
 button:hover {
-    background-color: #41ae70;
+    background-color: #23834c;
     color: aliceblue;
     border: none;
 }
