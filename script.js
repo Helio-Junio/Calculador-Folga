@@ -364,19 +364,37 @@ function adicionarEstilo() {
         @media (max-width: 600px) {
             .grade-calendario {
                 gap: 2px;
+                font-size: 10px;
+            }
+            .calendario-container {
+                width: 60%;
             }
             
             .celula-dia {
-                width: 30px;
-                height: 30px;
+                width: 10px;
+                height: 10px;
                 padding: 5px;
                 font-size: 14px;
             }
+                
+            .exemplo-dia-folga {
+                width: 30px;
+                height: 20px;
+                border-radius: 50%;
+                background-color: #4CAF50;
+            }
+        
+            .exemplo-dia-hoje {
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                border: 2px solid #ff5722;
+            }
             
             .btn-nav {
-                width: 35px;
-                height: 35px;
-                font-size: 16px;
+                width: 30px;
+                height: 30px;
+                font-size: 14px;
             }
         }
     `;
